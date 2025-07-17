@@ -1,0 +1,31 @@
+{
+  "system": {
+    "name": "Small-M Trinity",
+    "version": "1.0.0",
+    "setupTime": "2025-07-09T12:00:00Z",
+    "lastSync": "2025-07-09T12:00:00Z",
+    "syncCount": 0
+  },
+  "components": {
+    "projectIntelligence": {
+      "file": "project-intelligence.json",
+      "status": "configured",
+      "lastUpdate": "2025-07-09T12:00:00Z"
+    },
+    "smartContext": {
+      "file": "smart-context.json",
+      "status": "configured",
+      "lastUpdate": "2025-07-09T12:00:00Z"
+    },
+    "devSession": {
+      "file": "dev-session.json",
+      "status": "not_configured",
+      "lastUpdate": null
+    }
+  },
+  "activity": {
+    "totalActions": 6,
+    "lastAction": "init-sm --deep completed",
+    "sessionStart": "2025-07-09T12:00:00Z"
+  }
+}

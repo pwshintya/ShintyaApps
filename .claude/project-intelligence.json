@@ -1,0 +1,43 @@
+{
+  "projectType": "mobile",
+  "language": "JavaScript",
+  "framework": "React Native + Expo",
+  "mode": "mobile",
+  "subFrameworks": ["Expo Router", "Firebase", "React Navigation"],
+  "architecture": "file-based-routing",
+  "buildSystem": "EAS",
+  "database": "Firebase Firestore + Realtime Database",
+  "authentication": "Firebase Auth",
+  "uiLibrary": "GlueStack UI",
+  "vectorGraphics": "React Native SVG",
+  "testing": "Custom ESP32 Simulator",
+  "deployment": "Expo Application Services",
+  "packageManager": "npm",
+  "reactVersion": "19.0.0",
+  "reactNativeVersion": "0.79.3",
+  "expoVersion": "53.0.11",
+  "timestamp": 1752035893,
+  "analysisDepth": "deep",
+  "detectedPatterns": {
+    "contextProviders": ["AuthContext", "ThemeContext", "NotificationContext", "SettingsContext"],
+    "authFlow": "expo-router-based",
+    "routeGroups": ["(auth)", "(tabs)"],
+    "services": ["authService", "userService", "resiService", "capacityService"],
+    "hardwareIntegration": "ESP32 + RFID + Firebase",
+    "stateManagement": "React Context",
+    "styling": "StyleSheet + GlueStack UI",
+    "iconLibrary": "Lucide React Native"
+  },
+  "specialFeatures": {
+    "multiRole": true,
+    "hardwareIntegration": true,
+    "realTimeSync": true,
+    "offlineSupport": true,
+    "qrCodeGeneration": true,
+    "pdfExport": true,
+    "excelSupport": true,
+    "codSupport": true,
+    "rfidPairing": true,
+    "capacityMonitoring": true
+  }
+}
